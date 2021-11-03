@@ -1,0 +1,21 @@
+{
+    "name": "itgenius-dotnet",
+    "displayName": "ITGeniusDotnet",
+    "publisher": "ITGeniusEngineering",
+    "description": "This just a demo of how to create snippet",
+    "version": "1.1.0",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
