@@ -3,13 +3,15 @@
     "displayName": "ITGeniusDotnet",
     "publisher": "ITGeniusEngineering",
     "description": "This just a demo of how to create snippet",
-    "version": "1.1.0",
+    "version": "1.2.0",
+    "license": "SEE LICENSE IN LICENSE.txt",
     "engines": {
         "vscode": "^1.61.0"
     },
     "categories": [
         "Snippets"
     ],
+    "icon": "images/icon.png",
     "contributes": {
         "snippets": [
             {
@@ -17,5 +19,9 @@
                 "path": "./snippets/snippets.code-snippets"
             }
         ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/iamsamitdev/itgenius-dotnet-snippet-demo.git"
     }
 }
